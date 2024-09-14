@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: 'Playfair Display', 'Didot', 'Bodoni', 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Playfair Display', 'Didot', 'Bodoni', 'Lato', sans-serif;
+}
+
+.favButton {
+  padding: 10px;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  width: 100vw;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+footer > img {
+  width: 350px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+footer > p {
+  margin: 0;
+  padding-top: 0.7rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 20%; 
+  padding: 0.3rem;
+  box-sizing: border-box;
+  margin: 0.5rem; 
+}
+.card-grid {
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap;
+  gap: 0.5rem; 
+  width: 100%; 
+  max-width: 100vw; 
+  height: auto;
+  margin: 0 auto; 
+}
+
+.card:hover {
+  border: 2px solid rgb(178, 41, 153);
+}
+
+.card a {
+  color: #1590c9;
+}
+
+.card a:hover {
+  color: #d51d97bc;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.li-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
